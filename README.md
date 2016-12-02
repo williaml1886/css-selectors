@@ -57,7 +57,7 @@ Save the changes to `css/gems.css` and refresh in the browser. Emerald done. &#1
 The sapphire is going to be pretty tricky to move. There aren't any IDs or classes defined on the `img` tag. But, if you look carefully, you'll notice the `img` tag linking the sapphire is nested inside of a `div` with the id `sand`. This `img` tag is known as a child element of the parent, which is the `div`. 
 
 ```html
-    <div id="sand">
+    <div p id="sand">
       <img src="images/sapphire-gem.png" alt="Sapphire">
     </div>
 
